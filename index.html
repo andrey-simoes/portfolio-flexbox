@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Praticando Flexbox</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header id="header">
+
+            <div class="logo">
+                <img src="/images/perfil.jpg" alt="Andrey Simões">
+                <h2>Andrey Simões</h2>
+            </div>
+            <nav id="nav">
+              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+              </button>
+              <ul id="menu" role="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="/">Contato</a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <div class="flex-banner">
+
+            <div>
+            <h1 class="title-page">Andrey Simões - Portfólio</h1>
+            </div>
+
+            <div>
+            <p class="subtitle">Conheça um pouco sobre mim e meus projetos realizados</p>
+            </div>
+
+            <div>
+            <a href="#servicos">
+                <button class="cta" >Saiba mais</button>
+            </a>
+            </div>
+
+        </div>
+
+        <div id="sobre" class="flex-about">
+
+            <div class="about-title">
+                <h2>Sobre mim</h2>
+            </div>
+            <div class="about">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit bibendum tincidunt. Sed sit amet pharetra ante, ut gravida odio. Morbi sit amet rutrum lectus. Ut non fermentum sem. Ut commodo viverra nisl sit amet viverra. Vestibulum tristique libero tellus, nec vulputate felis hendrerit eget. Ut vehicula tincidunt dolor pharetra pellentesque. Duis in mauris at augue fermentum mattis vel nec augue. Vestibulum eu mattis ipsum. Aliquam sollicitudin neque quis turpis lacinia, eu pellentesque elit tristique.
+                </p>
+            </div>
+
+
+        </div>
+
+        <div id="servicos" class="services-title">
+            <h2>Como posso te ajudar?</h2>
+        </div>
+
+        <div  class="flex-container">
+            <div class="card">
+                <h3>Criação de Sites Institucionais</h3>
+            <p>Serviço essencial para você que precisa divulgar os trabalhos da sua empresa e ter uma presença digital</p>
+            <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Criação de Lojas Virtuais</h3>
+                <p>Site voltado para vendas online, com métodos de pagamento e configuração de frete
+                </p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Criação de Sites Delivery</h3>
+                <p>Site voltado para vendas do nicho de delivery, com funções de pedido online, impressão do pedido e entrega.
+                </p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>SEO</h3>
+                <p>Aumente a posição do seu site em buscas orgânicas na internet.</p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Otimização de Sites</h3>
+                <p>Serviço voltado para a melhoria da velocidade de navegação do site, aumentando a conversão (vendas) realizadas nele.
+                </p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Remoção de Vírus</h3>
+                <p>Remova os vírus do seu site e evite que seu site entre para a lista negra dos buscadores.</p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Manutenção de Sites</h3>
+                <p>Mantenha seu site atualizado e sempre pronto para a boa nagevabilidade de seus clientes.</p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Google meu Negócio</h3>
+                <p>Divulge seu negócio no google, facilitando os clientes te encontrarem e conhecerem seu negócio.
+                </p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+            <div class="card">
+                <h3>Campanhas Google ADS</h3>
+                <p>Começe a divulgar seu negócio em escala e aumente seus clientes, seja ele local, nacional ou internacional.
+                </p>
+                <a href="wa.me/5527997863549" target="blank"><button class="card-button">Saiba mais</button></a>
+            </div>
+        </div>
+
+
+        
+
+        <section class="section-portfolio">
+    
+        <div id="portfolio" class="portfolio-title">
+            <h2>Portfólio</h2>
+        </div>
+
+        <div class="flex-portfolio">
+            <div class="portfolio-card">1</div>
+            <div class="portfolio-card">2</div>
+            <div class="portfolio-card">3</div>
+            <div class="portfolio-card">4</div>
+            <div class="portfolio-card">5</div>
+            <div class="portfolio-card">6</div>
+        </div>
+        </section>
+
+
+        <footer>
+            <span>Copyright 2022</span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
