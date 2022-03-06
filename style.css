@@ -127,6 +127,7 @@ a .cta{
     gap: 20px;
     max-width: 1024px;
     padding: 15px 0px;
+    padding-bottom: 100px;
 }
 
 .flex-about{
@@ -235,6 +236,7 @@ footer{
 }
 
 .section-portfolio{
+    padding-bottom: 100px;
     background-color: #fff !important;
 }
 
@@ -315,6 +317,27 @@ a {
     position: relative;
 }
 
+.icon-services{
+    width: 100px;
+    height: auto;
+}
+
+.card-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_img{
+    cursor: pointer;
+}
+
+.small_img:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
 .mostrar{
     display: flex;
 }
@@ -355,13 +378,28 @@ a {
 
 .modal{
     background: #fff;
-    width: 90%;
+    width: 95%;
     min-width: 300px;
     padding: 0px;
-    border: 10px solid #020024;
-    box-shadow: 0 0 0 10px #e6e6e6;
+    border: 4px solid #020024;
+    box-shadow: 0 0 0 4px #e6e6e6;
     position: relative;
 }  
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background: #020024;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .3);
+}
 
 #header {
         box-sizing: border-box;
